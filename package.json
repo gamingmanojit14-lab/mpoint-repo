@@ -1,0 +1,23 @@
+{
+  "name": "mpoint-blockchain",
+  "version": "1.0.0",
+  "description": "A fully decentralized L1 blockchain and cryptocurrency built from first principles",
+  "main": "node/cli/mpoint-node.js",
+  "scripts": {
+    "start": "node node/cli/mpoint-node.js",
+    "signal": "node testnet/signaling-server.js",
+    "test": "node --test tests/unit/*.test.js tests/integration/*.test.js"
+  },
+  "dependencies": {
+    "level": "^9.0.0",
+    "ws": "^8.16.0"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "p2p",
+    "web3"
+  ],
+  "author": "Manojit Majumdar",
+  "license": "MIT"
+}
